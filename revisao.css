@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "SUSE", sans-serif;
+}
+
+
+
+
+header {
+    padding: 30px;
+    /*tamanho*/
+    background-color: #edb886;
+    /*cor*/
+    display: flex;
+    /*dxa os ngc lado a lado*/
+    justify-content: space-evenly;
+    align-items: center;
+    /*alinha*/
+}
+
+
+header div i {
+    color: wheat;
+    font-size: 50px;
+}
+
+/*o gap é usado no elemento pai*/
+
+header div nav ul {
+    display: flex;
+    /*dxa os ngc um embaixo do outro*/
+    gap: 20px;
+}
+
+
+header div nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+header div nav ul li a:hover {
+    color: wheat;
+    transition: 1s;
+}
+
+
+
+
+
+
+/* estilização da primeira sessão */
+#section-01 {
+    padding: 180px;
+    /*tamanho da sessão*/
+    background-color: #ffe498;
+    /*cor da sessão*/
+}
+
+
+.div-imoveis div {
+    width: 180px;
+    height: 300px;
+    background-color: #f9f9f1;
+}
+
+.div-imoveis {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+
+.div-imoveis .div-01 {
+    background-image: url(imagens/dining-area-9011242_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.div-imoveis .div-02 {
+    background-image: url(imagens/door-374195_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.div-imoveis .div-03 {
+    background-image: url(imagens/house-8923726_1280.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.div-imoveis .div-04 {
+    background-image: url(imagens/interior-4226020_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.div-imoveis .div-05 {
+    background-image: url(imagens/modern-architecture-4771207_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.div-imoveis .div-06 {
+    background-image: url(imagens/real-estate-6893060_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+#section-02 {
+    padding: 380px;
+    background-image: url(imagens/realtor-3261160_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#section-02 div {
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #b9a58d;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+#section-03 {
+    padding: 180px;
+    background-color: #ffe498;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#section-03 div {
+    width: 300px;
+    height: 450px;
+    background-color: #b9a58d;
+    padding: 20px;
+}
+
+
+
+
+
+footer {
+  padding: 30px;
+  background-color: #edb886;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.div-img-footer i {
+    font-size: 50px;
+    color: wheat;
+}
+
+
+.div-sociais i {
+background-color: #ffe498;
+padding: 10px;
+font-size: 25px;
+color: grey;
+}
+
+
+.div-list-footer a {
+    text-decoration: none; /*tira o sublinhado*/
+    color: wheat;
+}
